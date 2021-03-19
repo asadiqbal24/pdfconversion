@@ -332,6 +332,9 @@ class DocumentController extends Controller
                 //dd($thumbnail);
 
 
+                // dd($request);
+
+
         $converter = new OfficeConverter(public_path('files/files/'.$fileName));
          //dd($converter);
           $time = time();
